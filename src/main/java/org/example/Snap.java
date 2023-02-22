@@ -46,7 +46,7 @@ public class Snap extends DeckofCards{
         Timer timer = new Timer();
 
         System.out.println("TYPE SNAP");
-        timer.schedule(task, 5000);
+        timer.schedule(task, 2000);
         snapWordStr = scanner.nextLine();
         timer.cancel();
 
